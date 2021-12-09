@@ -6,5 +6,5 @@ function getName(){
     let dayOfBirth = parseInt(document.querySelector('.day').value)
     let monthOfBirth = parseInt(document.querySelector('.month').value)
     let yearOfBirth = parseInt(document.querySelector('.year').value)
-    
+    let 
 }
