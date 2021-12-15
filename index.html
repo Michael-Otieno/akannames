@@ -31,35 +31,39 @@
             <div class="p-3 pt-5 mt-5 text-center">
                 
                 <h1>Ghananian Akan Names</h1>
-                <p class="lead pt-3">Select Gender then Insert your Date of Birth to know your Ghananian traditional Akan name.</p>
+                <form action="" onsubmit="getName()">
+                    <p class="lead pt-3">Select Gender then Insert your Date of Birth to know your Ghananian traditional Akan name.</p>
                 
-                <div class="gender">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                        <label class="form-check-label" for="inlineRadio1">Male</label>
+                    <div class="gender">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="male" value="option1" required>
+                            <label class="form-check-label" for="inlineRadio1">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="female" value="option2" required>
+                            <label class="form-check-label" for="inlineRadio2">Female</label>
+                        </div>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                        <label class="form-check-label" for="inlineRadio2">Female</label>
-                    </div>
-                </div>
                 
 
-                <div class="row g-3 mt-2">
-                    <div class="col-sm">
-                      <input type="text" class="form-control" placeholder="Day" aria-label="Day">
+                    <div class="row g-3 mt-2">
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Day" aria-label="Day" id="day" required>
+                        </div>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Month" aria-label="Month" id="month" required>
+                        </div>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Year" aria-label="Year" id="year" required>
+                        </div>
                     </div>
-                    <div class="col-sm">
-                      <input type="text" class="form-control" placeholder="Month" aria-label="Month">
-                    </div>
-                    <div class="col-sm">
-                      <input type="text" class="form-control" placeholder="Year" aria-label="Year">
-                    </div>
-                </div>
 
-                <button type="submit" class="btn btn-primary mt-4">Submit</button>
+                    <button type="submit" class="btn btn-primary mt-4">Submit</button>
                
+                </form>
+                
             </div>
+            <p class="result"></p>
           </div>
 
           <div class="col">
