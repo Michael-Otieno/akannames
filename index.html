@@ -26,12 +26,13 @@
     </div>
     
     <div class="container overflow-hidden">
+        <h1>Ghananian Akan Names</h1>
         <div class="row gx-5">
           <div class="col">
             <div class="p-3 pt-5 mt-5 text-center">
                 
-                <h1>Ghananian Akan Names</h1>
-
+                <p>Akan names are derived from Ghanian culture. </p>
+                <p>Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
                 <!-- <form></form> -->
 
                 <form action="" onsubmit="return fetchData()" class="akansForm"> 
@@ -39,66 +40,32 @@
                     <p> <span class="culture"><em>Enter your details below</em></span> </p>
 
                     Name: <input type="text" name="name" id="userName" value=""required>
-                    <br>           
+                    <br> <br>          
                 
                     Date: <input type="number" name="date" id="dateOnly" value="" required >
-                    <br>
+                    <br><br>
                 
                     Month: <input type="number" name="month" id="monthOnly" value=""  required>
-                    <br>
+                    <br><br>
                     
                     Year: <input type="number" name="year" id="yearOnly" value=""required>
-                    <br>
+                    <br><br>
 
                     <span class="culture">Select your gender</span>
                     <br>
 
-                    Male: <input type="radio" name="gender" value="male" id="maleGender" required >
+                    Male: <input type="radio" class="ms-4" name="gender" value="male" id="maleGender" required >
                     <br>
 
-                    Female: <input type="radio" name="gender" value="female" id="femaleGender" required >
-                    <br>
+                    Female: <input type="radio" class="ms-1" name="gender" value="female" id="femaleGender" required >
+                    <br><br>
                 
                     <input type="submit" name="submit" value="Submit" required>
 
                 
-                </form>
-
-
-
-                <!-- <form action="" onsubmit="getName()">
-                    <p class="lead pt-3">Select Gender then Insert your Date of Birth to know your Ghananian traditional Akan name.</p>
-                
-                    <div class="gender">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="male" value="option1" required>
-                            <label class="form-check-label" for="inlineRadio1">Male</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="female" value="option2" required>
-                            <label class="form-check-label" for="inlineRadio2">Female</label>
-                        </div>
-                    </div>
-                
-
-                    <div class="row g-3 mt-2">
-                        <div class="col-sm">
-                            <input type="text" class="form-control" placeholder="Day" aria-label="Day" id="day" required>
-                        </div>
-                        <div class="col-sm">
-                            <input type="text" class="form-control" placeholder="Month" aria-label="Month" id="month" required>
-                        </div>
-                        <div class="col-sm">
-                            <input type="text" class="form-control" placeholder="Year" aria-label="Year" id="year" required>
-                        </div>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary mt-4">Submit</button>
-               
-                </form> -->
-                
+                </form>               
+              
             </div>
-            <p class="result"></p>
           </div>
 
           <div class="col">

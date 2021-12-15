@@ -89,61 +89,61 @@ function fetchData (){
     // Males
 
     if( birthDay == 0 && male == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[0]+", \nyour Akan name is: "+malesArray[0]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[0]+", \nYour Akan name is: "+malesArray[0]);
     };
 
     if( birthDay == 1 && male == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[1]+", \nyour Akan name is: "+malesArray[1]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[1]+", \nYour Akan name is: "+malesArray[1]);
     };
 
     if( birthDay == 2 && male == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[2]+", \nyour Akan name is: "+malesArray[2]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[2]+", \nYour Akan name is: "+malesArray[2]);
     };
 
     if( birthDay == 3 && male == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[3]+", \nyour Akan name is: "+malesArray[3]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[3]+", \nYour Akan name is: "+malesArray[3]);
     };
 
     if( birthDay == 4 && male == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[4]+", \nyour Akan name is: "+malesArray[4]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[4]+", \nYour Akan name is: "+malesArray[4]);
     };
 
     if( birthDay == 5 && male == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[5]+", \nyour Akan name is: "+malesArray[5]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[5]+", \nYour Akan name is: "+malesArray[5]);
     };
 
     if( birthDay == 6 && male == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[6]+", \nyour Akan name is: "+malesArray[6]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[6]+", \nYour Akan name is: "+malesArray[6]);
     };
 
     // Females
 
     if( birthDay == 0 && female == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[0]+", \nyour Akan name is: "+femaleArray[0]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[0]+", \nYour Akan name is: "+femaleArray[0]);
     };
 
     if( birthDay == 1 && female == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[1]+", \nyour Akan name is: "+femaleArray[1]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[1]+", \nYour Akan name is: "+femaleArray[1]);
     };
 
     if( birthDay == 2 && female == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[2]+", \nyour Akan name is: "+femaleArray[2]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[2]+", \nYour Akan name is: "+femaleArray[2]);
     };
 
     if( birthDay == 3 && female == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[3]+", \nyour Akan name is: "+femaleArray[3]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[3]+", \nYour Akan name is: "+femaleArray[3]);
     };
 
     if( birthDay == 4 && female == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[4]+", \nyour Akan name is: "+femaleArray[4]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[4]+", \nYour Akan name is: "+femaleArray[4]);
     };
 
     if( birthDay == 5 && female == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[5]+", \nyour Akan name is: "+femaleArray[5]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[5]+", \nYour Akan name is: "+femaleArray[5]);
     };
 
     if( birthDay == 6 && female == true){
-        alert ("Hello "+name+", \nYou were born on: "+daysArray[6]+", \nyour Akan name is: "+femaleArray[6]);
+        alert ("Hello "+name+", \nYou were born on: "+daysArray[6]+", \nYour Akan name is: "+femaleArray[6]);
     };
 
 };
